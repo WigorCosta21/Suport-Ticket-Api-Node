@@ -1,3 +1,17 @@
+import { randomUUID } from "node:crypto";
+
 export const create = (request, response) => {
-  return response.end("Created successfully");
+  const { equipment, description, user_name } = request.body;
+
+  const ticket = {
+    id: randomUUID(),
+    equipment,
+    description,
+    user_name,
+    status: "open",
+    create_at: new Date(),
+    updated_at: new Date(),
+  };
+
+  return response.end(JSON.stringify(ticket));
 };
