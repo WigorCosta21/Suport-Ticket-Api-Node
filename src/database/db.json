@@ -1,1 +1,31 @@
-{"tickets":[{"id":"f8e82aab-3e31-4b5c-b589-0f90b8995adb","equipment":"Computador","description":"Computador não liga","user_name":"Rodrigo Gonçalves","status":"closed","create_at":"2025-12-29T13:58:13.369Z","updated_at":"2025-12-29T13:58:13.369Z"},{"id":"90a12cb7-323d-4cab-adb6-5b914a517464","equipment":"Mouse","description":"A tecla de espaço não funciona","user_name":"João Pedro","status":"open","create_at":"2025-12-29T14:05:14.042Z","updated_at":"2025-12-29T18:27:25.590Z"}]}
+{
+  "tickets": [
+    {
+      "id": "f8e82aab-3e31-4b5c-b589-0f90b8995adb",
+      "equipment": "Computador",
+      "description": "Computador não liga",
+      "user_name": "Rodrigo Gonçalves",
+      "status": "closed",
+      "create_at": "2025-12-29T13:58:13.369Z",
+      "updated_at": "2025-12-29T13:58:13.369Z"
+    },
+    {
+      "id": "90a12cb7-323d-4cab-adb6-5b914a517464",
+      "equipment": "Mouse",
+      "description": "A tecla de espaço não funciona",
+      "user_name": "João Pedro",
+      "status": "closed",
+      "create_at": "2025-12-29T14:05:14.042Z",
+      "updated_at": "2025-12-29T18:27:25.590Z"
+    },
+    {
+      "id": "aeeca889-0bab-4293-8835-213e250094e1",
+      "equipment": "Monitor",
+      "description": "Monitor desliga de repente",
+      "user_name": "Maria",
+      "status": "closed",
+      "create_at": "2025-12-29T19:03:00.161Z",
+      "updated_at": "2025-12-29T19:03:00.161Z"
+    }
+  ]
+}
